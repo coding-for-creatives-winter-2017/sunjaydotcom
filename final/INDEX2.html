@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>website searcher</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Add a gray background color and some padding to the footer */
+    {background-color: black;
+}
+
+    footer {
+      background-color: black;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+
+    }
+
+
+  </style>
+</head>
+<body>
+<!-- start of freefind search box html -->
+<table cellpadding=0 cellspacing=0 border=0 >
+<tr>
+	<td  colspan=2 style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
+		<form style="margin:0px; margin-top:4px;" action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+		<input type="hidden" name="si" value="8168283">
+		<input type="hidden" name="pid" value="r">
+		<input type="hidden" name="n" value="0">
+		<input type="hidden" name="_charset_" value="">
+		<input type="hidden" name="bcd" value="&#247;">
+		<input type="text" name="query" size="15"> 
+		<input type="submit" value="search">
+		</form>
+	</td>
+</tr>
+<tr>
+	<td style="text-align:left; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
+		<a style="text-decoration:none; color:gray;" href="http://www.freefind.com" >site search</a><a style="text-decoration:none; color:gray;" href="http://www.freefind.com" > by
+		<span style="color: #606060;">freefind</span></a>
+	</td>
+
+	<td style="text-align:right; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
+		<a href="http://search.freefind.com/find.html?si=8168283&amp;pid=a">advanced</a>
+	</td>
+</tr>
+</table>
+<!-- end of freefind search box html -->
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">PHOTOS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="INDEX2.html">Photos</a></li>
+        <li><a href="INDEX3.html">Videos</a></li>
+        <li><a href="INDEX4.html">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19942665_1226597947485348_6389089978946696273_o.jpg?oh=bc3794e8e9203f1c70c25814ec11d9f4&oe=5A9BDCD2&dl=1, https://www.facebook.com/photo.php?fbid=1226597947485348&set=pb.100004054640947.-2207520000.1512368518.&type=3&t" alt="Image">
+          <div class="carousel-caption">
+            <h3>The Moon</h3>
+            <p>2017.</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19944295_1228475553964254_4345047412778353530_o.jpg?oh=929026bdc847fbef9c1ba6c8a026e2b2&oe=5AD5C66A&dl=1, https://www.facebook.com/photo.php?fbid=1228475553964254&set=pb.100004054640947.-2207520000.1512368518.&type=3&t" alt="Image">
+          <div class="carousel-caption">
+            <h3>moon shadows</h3>
+            <p>nice</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/20935061_1260655714079571_7081246702895568538_o.jpg?oh=8d384c64e8a8e7f6bb3603580f092ef4&oe=5ACE3C5C&dl=1, https://www.facebook.com/photo.php?fbid=1260655714079571&set=pb.100004054640947.-2207520000.1512368518.&type=3&t" alt="Image">
+          <div class="carousel-caption">
+            <h3>moon colors</h3>
+            <p>dope</p>
+          </div>      
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well">
+      <p>my portfolio </p>
+    </div>
+    <div class="well">
+       <p>new moon photos coming soon</p>
+    </div>
+    <div class="well">
+       <p>Visit my Instagram @sunjayking</p>
+    </div>
+  </div>
+</div>
+<hr>
+</div>
+
+<div class="container text-center">    
+  <h3>COOL SHIT</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/18766569_1193414644137012_8982862544386962049_o.jpg?oh=d0acd94e7077f809d01a806cb865d10a&oe=5A9C83A4&dl=1, https://www.facebook.com/photo.php?fbid=1193414644137012&set=a.112440095567811.25079.100004054640947&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>vacation</p>
+    </div>
+    <div class="col-sm-3"> 
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19620387_1218766861601790_8949307735537014325_o.jpg?oh=ecf561bc00c45cf97faca0e4c970b426&oe=5ACCD7E7&dl=1, https://www.facebook.com/photo.php?fbid=1218766861601790&set=a.112440095567811.25079.100004054640947&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>dope look</p>    
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>words</p>
+      </div>
+      <div class="well">
+       <p>Some text..</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>letters</p>
+      </div>
+      <div class="well">
+       <p>shape</p>
+      </div>
+    </div>  
+  </div>
+  <hr>
+</div>
+
+<div class="container text-center">    
+  <h3>MORE COOL</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19144021_1206846496127160_6119430643949236993_o.jpg?oh=664f077d8b5a11d084eafea62fd592dc&oe=5A8E9C6A&dl=1, https://www.facebook.com/photo.php?fbid=1206846496127160&set=a.112440095567811.25079.100004054640947&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pic1</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/18836699_1193414490803694_2653827114993343176_o.jpg?oh=e4568b6a9a4ba9bd9d4e68f1d775c6c9&oe=5ACD4ACF&dl=1, https://www.facebook.com/photo.php?fbid=1193414490803694&set=a.112440095567811.25079.100004054640947&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pic 2</p>    
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19477608_1218766858268457_5414502405430665825_o.jpg?oh=c28fe0fe53a023832cea25fc00e95360&oe=5AD0537A&dl=1, https://www.facebook.com/photo.php?fbid=1218766858268457&set=a.112440095567811.25079.100004054640947&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pic 3</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/20988356_1260655717412904_5463133388850716090_o.jpg?oh=c53a9ac2af58b08674f84dcfd37db785&oe=5ACE72B8&dl=1, https://www.facebook.com/photo.php?fbid=1260655717412904&set=pb.100004054640947.-2207520000.1512368518.&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pic 4</p>
+    </div> 
+    <div class="col-sm-2"> 
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/20023992_1228475560630920_3454400268721921269_o.jpg?oh=5ef92aeff54535459b7b03974252e1ef&oe=5AD53318&dl=1, https://www.facebook.com/photo.php?fbid=1228475560630920&set=pb.100004054640947.-2207520000.1512368518.&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pic 5</p>
+    </div>     
+    <div class="col-sm-2"> 
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19388738_1208495702628906_2826587903557108384_o.jpg?oh=5920642c9b660c00986966e7b0a0764f&oe=5AD1EFCB&dl=1, https://www.facebook.com/photo.php?fbid=1208495702628906&set=a.112440095567811.25079.100004054640947&type=3&theater" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pic 6</p>
+    </div> 
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
+
